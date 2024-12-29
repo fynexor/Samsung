@@ -20,3 +20,23 @@ adb shell settings put global protect_battery 1
 - **`0`** — отключает ограничение, зарядка до 100%.
 - **`1`** — зарядка прекращается на 80%.
 - **`2`** — зарядка до 100%, затем остановка до снижения заряда до 95%, после чего зарядка возобновляется.
+
+## ...
+...
+
+```
+adb shell settings put global battery_protection_recharge_level 70
+```
+
+### Значения:
+- **`1-100`** — ...
+
+## ...
+...
+
+```
+adb shell settings put global battery_protection_threshold 80
+```
+
+### Значения:
+- **`1-100`** — ...
